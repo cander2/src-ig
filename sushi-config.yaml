@@ -3,7 +3,7 @@ id: rfi-ig
 canonical: http://hl7.org/fhir/rfi-ig
 name: RFI
 title: Request for Information (RFI)
-description: Standard for RFIs from health authorities to Market Authorization Holders.
+description: Standard for structuring RFIs from health authorities to Market Authorization Holders.
 status: draft
 version: 0.1.0
 fhirVersion: 5.0.0
