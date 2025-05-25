@@ -1,19 +1,19 @@
 {
   "resourceType": "Bundle",
-  "id": "rfi-bundle-003",
+  "id": "response-bundle-003",
   "type": "collection",
   "entry": [
     {
       "resource": {
         "resourceType": "QuestionnaireResponse",
-        "id": "response-003",
-        "questionnaire": "Questionnaire/question-003",
+        "id": "rfi-response-003",
+        "questionnaire": "Questionnaire/rfi-question-003",
         "status": "completed",
         "author": {
           "reference": "Practitioner/PackagingLead"
         },
         "source": {
-          "reference": "Communication/rfi-003"
+          "reference": "Communication/rfi-comm-003"
         },
         "item": [
           {

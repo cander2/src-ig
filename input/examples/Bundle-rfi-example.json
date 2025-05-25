@@ -6,7 +6,7 @@
     {
       "resource": {
         "resourceType": "Communication",
-        "id": "rfi-003",
+        "id": "rfi-comm-003",
         "status": "in-progress",
         "category": [
           {
@@ -32,7 +32,7 @@
         "payload": [
           {
             "contentReference": {
-              "reference": "Questionnaire/question-003"
+              "reference": "Questionnaire/rfi-question-003"
             }
           }
         ],
@@ -47,7 +47,7 @@
     {
       "resource": {
         "resourceType": "Questionnaire",
-        "id": "question-003",
+        "id": "rfi-question-003",
         "status": "active",
         "item": [
           {
