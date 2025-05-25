@@ -29,10 +29,11 @@
         "type": [{"code": "Reference", "targetProfile": ["http://hl7.org/fhir/StructureDefinition/Organization", "http://hl7.org/fhir/StructureDefinition/Practitioner"]}]
       },
       {
-        "id": "Communication.topic",
-        "path": "Communication.topic",
+        "id": "Communication.basedOn",
+        "path": "Communication.basedOn",
         "min": 1,
-        "type": [{"code": "Reference", "targetProfile": ["http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization"]}]
+        "max": "1",
+        "type": [{"code": "Reference", "targetProfile": ["http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition"]}]
       },
       {
         "id": "Communication.extension",

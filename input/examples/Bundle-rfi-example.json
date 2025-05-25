@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "response-bundle-003",
+  "id": "rfi-bundle-003",
   "type": "collection",
   "entry": [
     {
@@ -24,9 +24,11 @@
         "recipient": {
           "reference": "Organization/MAH-PharmaCorp"
         },
-        "topic": {
-          "reference": "RegulatedAuthorization/NDA78901"
-        },
+        "basedOn": [
+          {
+            "reference": "MedicinalProductDefinition/NDA78901"
+          }
+        ],
         "payload": [
           {
             "contentReference": {
