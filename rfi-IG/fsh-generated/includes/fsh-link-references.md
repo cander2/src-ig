@@ -1,0 +1,13 @@
+[MyPatient]: StructureDefinition-MyPatient.html
+[PatientExample]: Patient-PatientExample.html
+[response-bundle-003]: Bundle-response-bundle-003.html
+[rfi-bundle-003]: Bundle-rfi-bundle-003.html
+[RFICategoryAndSubcategory]: ValueSet-rfi-category-subcategory.html
+[RFICommunication]: StructureDefinition-RFICommunication.html
+[RFIDueDate]: StructureDefinition-rfi-due-date.html
+[RFIMedia]: StructureDefinition-RFIMedia.html
+[RFIPriority]: StructureDefinition-rfi-priority.html
+[RFIPriority]: ValueSet-rfi-priority.html
+[RFIQuestionID]: StructureDefinition-rfi-question-id.html
+[RFIQuestionnaire]: StructureDefinition-RFIQuestionnaire.html
+[RFIQuestionnaireResponse]: StructureDefinition-RFIQuestionnaireResponse.html

@@ -1,0 +1,231 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.uv.rfi-ig",
+  "url": "http://hl7.org/fhir/rfi-ig/ImplementationGuide/hl7.fhir.uv.rfi-ig",
+  "version": "0.1.0",
+  "name": "RFI",
+  "title": "Request for Information (RFI)",
+  "status": "draft",
+  "publisher": "Gravitate Health Project",
+  "contact": [
+    {
+      "name": "Gravitate Health Project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.gravitatehealth.eu/"
+        }
+      ]
+    }
+  ],
+  "description": "Standard for RFIs from health authorities to Market Authorization Holders.",
+  "packageId": "hl7.fhir.uv.rfi-ig",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "5.0.0"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.r5.core",
+      "version": "5.0.0",
+      "uri": "http://hl7.org/fhir/ImplementationGuide/fhir",
+      "id": "hl7_fhir_r5_core"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyPatient"
+        },
+        "name": "MyPatient",
+        "description": "An example profile of the Patient resource.",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample"
+        },
+        "name": "PatientExample",
+        "description": "An example of a patient with a license to krill.",
+        "isExample": true,
+        "profile": [
+          "http://hl7.org/fhir/rfi-ig/StructureDefinition/MyPatient"
+        ]
+      },
+      {
+        "reference": {
+          "reference": "Bundle/response-bundle-003"
+        },
+        "name": "response-bundle-003",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "Bundle/rfi-bundle-003"
+        },
+        "name": "rfi-bundle-003",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/rfi-category-subcategory"
+        },
+        "description": "Categories and sub-categories for RFI questions, aligned to ICH CTD headings.",
+        "name": "RFICategoryAndSubcategory",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RFICommunication"
+        },
+        "name": "RFICommunication",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/rfi-due-date"
+        },
+        "name": "RFIDueDate",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RFIMedia"
+        },
+        "name": "RFIMedia",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/rfi-priority"
+        },
+        "name": "RFIPriority",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/rfi-priority"
+        },
+        "description": "Priority levels for RFIs.",
+        "name": "RFIPriority",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/rfi-question-id"
+        },
+        "name": "RFIQuestionID",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RFIQuestionnaire"
+        },
+        "name": "RFIQuestionnaire",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RFIQuestionnaireResponse"
+        },
+        "name": "RFIQuestionnaireResponse",
+        "isExample": false
+      }
+    ],
+    "page": {
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "title": "Home",
+          "generation": "markdown",
+          "name": "index.html",
+          "sourceUrl": "index.html"
+        },
+        {
+          "title": "Use Case",
+          "generation": "markdown",
+          "name": "use-case.html",
+          "sourceUrl": "use-case.html"
+        },
+        {
+          "title": "Resource Mapping",
+          "generation": "markdown",
+          "name": "resource-mapping.html",
+          "sourceUrl": "resource-mapping.html"
+        },
+        {
+          "title": "Profiles",
+          "generation": "markdown",
+          "name": "profiles.html",
+          "sourceUrl": "profiles.html"
+        },
+        {
+          "title": "Value Sets",
+          "generation": "markdown",
+          "name": "value-sets.html",
+          "sourceUrl": "value-sets.html"
+        },
+        {
+          "title": "Examples",
+          "generation": "markdown",
+          "name": "examples.html",
+          "sourceUrl": "examples.html"
+        },
+        {
+          "title": "Implementation",
+          "generation": "markdown",
+          "name": "implementation.html",
+          "sourceUrl": "implementation.html"
+        }
+      ],
+      "name": "toc.html",
+      "sourceUrl": "toc.html"
+    },
+    "parameter": [
+      {
+        "code": {
+          "code": "copyrightyear",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "2025+"
+      },
+      {
+        "code": {
+          "code": "releaselabel",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "ci-build"
+      },
+      {
+        "code": {
+          "code": "apply-version",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "false"
+      },
+      {
+        "code": {
+          "code": "apply-contact",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "code": "show-inherited-invariants",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "code": "path-history",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "http://hl7.org/fhir/rfi-ig/history.html"
+      }
+    ]
+  }
+}

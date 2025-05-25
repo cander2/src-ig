@@ -1,0 +1,44 @@
+FSHOnly: false
+id: rfi-ig
+canonical: http://hl7.org/fhir/rfi-ig
+name: RFI
+title: Request for Information (RFI)
+description: Standard for RFIs from health authorities to Market Authorization Holders.
+status: draft
+version: 0.1.0
+fhirVersion: 5.0.0
+copyrightYear: 2025+
+releaseLabel: ci-build
+publisher:
+  name: Gravitate Health Project
+  url: https://www.gravitatehealth.eu/
+license: CC0-1.0
+dependencies:
+  hl7.fhir.r5.core: 5.0.0
+parameters:
+  apply-version: false
+  apply-contact: true
+  show-inherited-invariants: true
+pages:
+  index.md:
+    title: Home
+  use-case.md:
+    title: Use Case
+  resource-mapping.md:
+    title: Resource Mapping
+  profiles.md:
+    title: Profiles
+  value-sets.md:
+    title: Value Sets
+  examples.md:
+    title: Examples
+  implementation.md:
+    title: Implementation
+menu:
+  Home: index.html
+  Use Case: use-case.html
+  Resource Mapping: resource-mapping.html
+  Profiles: profiles.html
+  Value Sets: value-sets.html
+  Examples: examples.html
+  Implementation: implementation.html

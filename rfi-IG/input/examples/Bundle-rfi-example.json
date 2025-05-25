@@ -1,0 +1,93 @@
+{
+  "resourceType": "Bundle",
+  "id": "response-bundle-003",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Communication",
+        "id": "rfi-003",
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/rfi-type",
+                "code": "RFI"
+              }
+            ]
+          }
+        ],
+        "sender": {
+          "reference": "Organization/FDA"
+        },
+        "recipient": {
+          "reference": "Organization/MAH-PharmaCorp"
+        },
+        "topic": {
+          "reference": "RegulatedAuthorization/NDA78901"
+        },
+        "payload": [
+          {
+            "contentReference": {
+              "reference": "Questionnaire/question-003"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/rfi-due-date",
+            "valueDateTime": "2025-07-15T23:59:59Z"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Questionnaire",
+        "id": "question-003",
+        "status": "active",
+        "item": [
+          {
+            "linkId": "q1",
+            "type": "group",
+            "text": "Provide details on the drug product packaging.",
+            "code": [
+              {
+                "system": "http://hl7.org/fhir/rfi-category",
+                "code": "CMC"
+              },
+              {
+                "system": "http://hl7.org/fhir/rfi-subcategory",
+                "code": "DrugProduct"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/rfi-question-id",
+                "valueString": "Q003"
+              }
+            ],
+            "item": [
+              {
+                "linkId": "q1.1",
+                "type": "display",
+                "text": "**Packaging Details**: Describe the primary packaging materials and their compatibility with the drug product."
+              },
+              {
+                "linkId": "q1.2",
+                "type": "attachment",
+                "text": "Upload an image of the packaging."
+              },
+              {
+                "linkId": "q1.3",
+                "type": "display",
+                "text": "Provide any additional notes on packaging stability or testing."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

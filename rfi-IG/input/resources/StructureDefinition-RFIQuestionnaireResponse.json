@@ -1,0 +1,24 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RFIQuestionnaireResponse",
+  "url": "http://hl7.org/fhir/StructureDefinition/RFIQuestionnaireResponse",
+  "name": "RFIQuestionnaireResponse",
+  "status": "draft",
+  "kind": "resource",
+  "abstract": false,
+  "type": "QuestionnaireResponse",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "QuestionnaireResponse.item.answer.value[x]",
+        "path": "QuestionnaireResponse.item.answer.value[x]",
+        "type": [
+          {"code": "string", "_code": {"extension": [{"url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable", "valueBoolean": true}]}},
+          {"code": "Attachment"}
+        ]
+      }
+    ]
+  }
+}

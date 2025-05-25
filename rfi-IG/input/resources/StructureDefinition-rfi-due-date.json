@@ -1,0 +1,27 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "rfi-due-date",
+  "url": "http://hl7.org/fhir/StructureDefinition/rfi-due-date",
+  "name": "RFIDueDate",
+  "status": "draft",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "context": [{"type": "element", "expression": "Communication"}],
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org/fhir/StructureDefinition/rfi-due-date"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [{"code": "dateTime"}]
+      }
+    ]
+  }
+}

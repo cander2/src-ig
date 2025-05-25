@@ -1,0 +1,31 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "rfi-priority",
+  "url": "http://hl7.org/fhir/StructureDefinition/rfi-priority",
+  "name": "RFIPriority",
+  "status": "draft",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "context": [{"type": "element", "expression": "Communication"}],
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org/fhir/StructureDefinition/rfi-priority"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [{"code": "code"}],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/rfi-priority"
+        }
+      }
+    ]
+  }
+}

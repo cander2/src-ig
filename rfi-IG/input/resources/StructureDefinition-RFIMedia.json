@@ -1,0 +1,28 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RFIMedia",
+  "url": "http://hl7.org/fhir/StructureDefinition/RFIMedia",
+  "name": "RFIMedia",
+  "status": "draft",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Media",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Media",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Media.content.contentType",
+        "path": "Media.content.contentType",
+        "constraint": [
+          {
+            "key": "rfi-media-type",
+            "severity": "error",
+            "human": "Must be image/png or image/jpeg",
+            "expression": "contentType in ('image/png' | 'image/jpeg')"
+          }
+        ]
+      }
+    ]
+  }
+}

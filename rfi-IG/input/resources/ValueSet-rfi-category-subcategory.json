@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "rfi-category-subcategory",
+  "url": "http://hl7.org/fhir/ValueSet/rfi-category-subcategory",
+  "version": "0.1.0",
+  "name": "RFICategoryAndSubcategory",
+  "status": "draft",
+  "description": "Categories and sub-categories for RFI questions, aligned to ICH CTD headings.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/rfi-category",
+        "concept": [
+          {"code": "Administrative", "display": "Administrative"},
+          {"code": "Labeling", "display": "Labeling"},
+          {"code": "CMC", "display": "CMC"},
+          {"code": "Clinical", "display": "Clinical"},
+          {"code": "Non-clinical", "display": "Non-clinical"}
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/rfi-subcategory",
+        "concept": [
+          {"code": "ApplicationForm", "display": "Application Form"},
+          {"code": "AdministrativeDetails", "display": "Administrative Details"},
+          {"code": "ProposedLabeling", "display": "Proposed Labeling"},
+          {"code": "RiskManagement", "display": "Risk Management"},
+          {"code": "DrugSubstance", "display": "Drug Substance"},
+          {"code": "Stability", "display": "Stability"},
+          {"code": "Bioequivalence", "display": "Bioequivalence"},
+          {"code": "ClinicalStudyReports", "display": "Clinical Study Reports"},
+          {"code": "Toxicology", "display": "Toxicology"},
+          {"code": "Pharmacology", "display": "Pharmacology"}
+        ]
+      }
+    ]
+  }
+}

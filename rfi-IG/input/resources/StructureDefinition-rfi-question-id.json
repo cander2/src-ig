@@ -1,0 +1,27 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "rfi-question-id",
+  "url": "http://hl7.org/fhir/StructureDefinition/rfi-question-id",
+  "name": "RFIQuestionID",
+  "status": "draft",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "context": [{"type": "element", "expression": "Questionnaire.item"}],
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org/fhir/StructureDefinition/rfi-question-id"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [{"code": "string"}]
+      }
+    ]
+  }
+}

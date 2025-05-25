@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "rfi-priority",
+  "url": "http://hl7.org/fhir/ValueSet/rfi-priority",
+  "name": "RFIPriority",
+  "status": "draft",
+  "description": "Priority levels for RFIs.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/rfi-priority",
+        "concept": [
+          {"code": "high", "display": "High"},
+          {"code": "medium", "display": "Medium"},
+          {"code": "low", "display": "Low"}
+        ]
+      }
+    ]
+  }
+}

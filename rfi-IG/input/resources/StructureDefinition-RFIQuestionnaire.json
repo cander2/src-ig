@@ -1,0 +1,58 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RFIQuestionnaire",
+  "url": "http://hl7.org/fhir/StructureDefinition/RFIQuestionnaire",
+  "name": "RFIQuestionnaire",
+  "status": "draft",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Questionnaire",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Questionnaire",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Questionnaire.item.text",
+        "path": "Questionnaire.item.text",
+        "type": [{"code": "string", "_code": {"extension": [{"url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable", "valueBoolean": true}]}}]
+      },
+      {
+        "id": "Questionnaire.item.type",
+        "path": "Questionnaire.item.type",
+        "constraint": [
+          {
+            "key": "rfi-type",
+            "severity": "error",
+            "human": "Must be group, display, or attachment",
+            "expression": "type in ('group' | 'display' | 'attachment')"
+          }
+        ]
+      },
+      {
+        "id": "Questionnaire.item.code",
+        "path": "Questionnaire.item.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/rfi-category-subcategory"
+        }
+      },
+      {
+        "id": "Questionnaire.item.extension",
+        "path": "Questionnaire.item.extension",
+        "slicing": {
+          "discriminator": [{"type": "value", "path": "url"}],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Questionnaire.item.extension:rfi-question-id",
+        "path": "Questionnaire.item.extension",
+        "sliceName": "rfi-question-id",
+        "min": 0,
+        "max": "1",
+        "type": [{"code": "Extension", "profile": ["http://hl7.org/fhir/StructureDefinition/rfi-question-id"]}]
+      }
+    ]
+  }
+}
