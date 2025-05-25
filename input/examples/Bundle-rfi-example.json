@@ -7,7 +7,7 @@
       "resource": {
         "resourceType": "Communication",
         "id": "rfi-003",
-        "status": "active",
+        "status": "in-progress",
         "category": [
           {
             "coding": [
