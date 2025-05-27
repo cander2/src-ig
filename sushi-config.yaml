@@ -1,5 +1,5 @@
 FSHOnly: false
-id: rfi-ig
+id: hl7.fhir.uv.rfi-ig
 canonical: http://hl7.org/fhir/rfi-ig
 name: RFI
 title: Request for Information (RFI)
