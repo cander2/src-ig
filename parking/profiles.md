@@ -1,5 +1,3 @@
-# Profiles
-
 ## RFICommunication
 - **Base**: [Communication](http://hl7.org/fhir/R5/communication.html)
 - **Constraints**:

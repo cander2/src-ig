@@ -1,5 +1,3 @@
-# Value Sets
-
 ## RFICategoryAndSubcategory
 - **URL**: [ValueSet-rfi-category-subcategory](ValueSet-rfi-category-subcategory.html)
 - **Description**: Categories and sub-categories for RFIs, aligned with ICH CTD.

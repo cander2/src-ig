@@ -23,21 +23,21 @@ pages:
     title: Home
   use-case.md:
     title: Use Case
-  resource-mapping.md:
+  rfi-structure.md:
     title: Resource Mapping
-  profiles.md:
-    title: Profiles
-  value-sets.md:
+  # profiles.md:
+    # title: Profiles
+  terminology.md:
     title: Value Sets
   examples.md:
     title: Examples
-  implementation.md:
-    title: Implementation
+  # implementation.md:
+    # title: Implementation
 menu:
   Home: index.html
   Use Case: use-case.html
-  Resource Mapping: resource-mapping.html
-  Profiles: profiles.html
-  Value Sets: value-sets.html
+  RFI Structure: rfi-structure.html
+  # Profiles: profiles.html
+  Terminology: terminology.html
   Examples: examples.html
-  Implementation: implementation.html
+  # Implementation: implementation.html

@@ -1,8 +1,5 @@
-# Implementation Considerations
-
 ## Interoperability
-- Use FHIR R4.
-- Align with ICH M11 where applicable.
+- Use FHIR R5.
 - Support RESTful FHIR APIs.
 
 ## UI Rendering

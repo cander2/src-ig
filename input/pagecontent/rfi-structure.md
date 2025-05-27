@@ -1,5 +1,3 @@
-# Resource Mapping
-
 ## Core Resources
 - **Communication**: RFI metadata (issuer, recipient, application).
 - **Questionnaire**: Questions with rich text (Markdown) and images (Attachment).
