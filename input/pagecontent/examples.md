@@ -1,7 +1,7 @@
-## RFI Question
+### RFI Question
 - **Resource**: [Bundle-rfi-example](Bundle-rfi-example.html)
-- **Description**: RFI from FDA about drug packaging, with paragraph, image placeholder, and paragraph.
+- **Description**: RFI from a regulator about drug packaging, with paragraph, image placeholder, and paragraph.
 
-## RFI Response
+### RFI Response
 - **Resource**: [Bundle-response-example](Bundle-response-example.html)
-- **Description**: MAH response with paragraph, image, and paragraph.
+- **Description**: MAH response to the regulator with paragraph, image, and paragraph.

@@ -1,15 +1,13 @@
-# Use Case
-
-## Problem Statement
+### Problem Statement
 Health authorities issue RFIs as DOCX/PDF documents, requiring MAHs to manually:
 - Extract questions and metadata.
 - Categorize questions.
 - Route to teams.
 - Check prior responses.
 
-This is error-prone and delays compliance.
+This is error-prone and inefficient.
 
-## Solution
+### Solution
 A FHIR-based RFI standard offers:
 - **JSON Structure**: Automates parsing.
 - **Metadata**: Identifies issuer, application, recipient, categories.
@@ -17,7 +15,7 @@ A FHIR-based RFI standard offers:
 - **Interoperability**: FHIR-compatible.
 - **Tracking**: Links responses for querying.
 
-## Workflow
+### Workflow
 1. Health authority issues RFI as a FHIR Bundle (`Communication`, `Questionnaire`).
 2. MAH parses Bundle, renders in UI, routes, and categorizes.
 3. MAH responds with `QuestionnaireResponse` (text, images).

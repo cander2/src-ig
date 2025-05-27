@@ -24,7 +24,7 @@ pages:
   use-case.md:
     title: Use Case
   rfi-structure.md:
-    title: Resource Mapping
+    title: RFI Structure
   # profiles.md:
     # title: Profiles
   terminology.md:

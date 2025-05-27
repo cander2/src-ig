@@ -26,9 +26,6 @@ Out of scope:
 ### Solution Description 
 
 
-### Use Case Examples
-
-
 ### Skillsets
 
 
