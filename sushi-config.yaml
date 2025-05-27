@@ -1,4 +1,3 @@
-FSHOnly: false
 id: hl7.fhir.uv.rfi-ig
 canonical: http://hl7.org/fhir/uv/rfi-ig
 name: RFI
