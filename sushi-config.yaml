@@ -18,6 +18,8 @@ parameters:
   show-inherited-invariants: false
   autoload-resources: true
   produce-jekyll-data: true
+  generate-artifacts-page: true
+  generate-downloads-page: true
 pages:
   index.md:
     title: Home
