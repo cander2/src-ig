@@ -12,7 +12,7 @@ This Implementation Guide (IG) defines a FHIR-based standard for structuring **R
 ### Scope
 - Structured RFIs with questions/comments and metadata.
 - Categorization: Administrative, Labeling, CMC, Clinical, Non-clinical (aligned with ICH CTD).
-- Rich text (Markdown) and images (Attachment/Media).
+- Rich text (Markdown) and images (Attachment).
 - Question-and-Answer response format.
 - FHIR profiles and minimal extensions.
 

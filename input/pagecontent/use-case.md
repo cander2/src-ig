@@ -13,7 +13,7 @@ This is error-prone and delays compliance.
 A FHIR-based RFI standard offers:
 - **JSON Structure**: Automates parsing.
 - **Metadata**: Identifies issuer, application, recipient, categories.
-- **Rich Content**: Markdown for text, Attachment/Media for images.
+- **Rich Content**: Markdown for text, Attachment for images.
 - **Interoperability**: FHIR-compatible.
 - **Tracking**: Links responses for querying.
 

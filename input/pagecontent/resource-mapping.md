@@ -5,7 +5,6 @@
 - **Questionnaire**: Questions with rich text (Markdown) and images (Attachment).
 - **QuestionnaireResponse**: Responses with text and images.
 - **Bundle**: Packages RFI/response resources.
-- **Media**: Optional for large images.
 
 ## RFI Structure
 - **Bundle** (`type: collection`):

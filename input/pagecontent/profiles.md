@@ -24,8 +24,3 @@
 - **Base**: [QuestionnaireResponse](http://hl7.org/fhir/R5/questionnaireresponse.html)
 - **Constraints**:
   - `item.answer.value[x]`: `valueString` (markdown), `valueAttachment`.
-
-## RFIMedia
-- **Base**: [Media](http://hl7.org/fhir/R5/media.html)
-- **Constraints**:
-  - `content.contentType`: `image/png`, `image/jpeg`.

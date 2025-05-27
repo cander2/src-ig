@@ -7,7 +7,7 @@
 
 ## UI Rendering
 - **Markdown**: Render `item.text`, `answer.valueString` with `marked` (JavaScript) or `python-markdown`.
-- **Images**: Display `valueAttachment` as `<img>` or fetch `Media`.
+- **Images**: Display `valueAttachment` as `<img>`.
 - **Layout**: Stack content (paragraph, image, paragraph).
 
 ## Security
