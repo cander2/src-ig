@@ -15,9 +15,9 @@ license: CC0-1.0
 dependencies:
   hl7.fhir.r5.core: 5.0.0
 parameters:
-  apply-version: false
-  apply-contact: true
-  show-inherited-invariants: true
+  show-inherited-invariants: false
+  autoload-resources: true
+  produce-jekyll-data: true
 pages:
   index.md:
     title: Home
