@@ -1,6 +1,7 @@
 {
   "resourceType": "Bundle",
   "id": "response-bundle-003",
+  "url": "http://hl7.org/fhir/uv/rfi-ig/Bundle/rfi-bundle-003",
   "type": "collection",
   "entry": [
     {
