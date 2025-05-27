@@ -2,7 +2,7 @@
 
 
 ### Dependencies
-{% include dependency-table.xhtml %}
+
 
 ### Purpose
 This Implementation Guide (IG) defines a FHIR-based standard for structuring **Requests for Information (RFIs)** issued by health authorities (e.g., FDA, EMA, PMDA) to market authorization holders (MAHs) during drug application assessments. It transitions RFIs from DOCX/PDF to FHIR-compliant JSON, enabling:
