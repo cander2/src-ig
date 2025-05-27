@@ -1,6 +1,8 @@
-# FHIR Implementation Guide: Request for Information (RFI) Standard
+### Introduction
 
-## Introduction
+
+### Dependencies
+{% include dependency-table.xhtml %}
 
 ### Purpose
 This Implementation Guide (IG) defines a FHIR-based standard for structuring **Requests for Information (RFIs)** issued by health authorities (e.g., FDA, EMA, PMDA) to market authorization holders (MAHs) during drug application assessments. It transitions RFIs from DOCX/PDF to FHIR-compliant JSON, enabling:
@@ -10,26 +12,30 @@ This Implementation Guide (IG) defines a FHIR-based standard for structuring **R
 - Interoperability across systems.
 
 ### Scope
+In-scope
 - Structured RFIs with questions/comments and metadata.
 - Categorization: Administrative, Labeling, CMC, Clinical, Non-clinical (aligned with ICH CTD).
 - Rich text (Markdown) and images (Attachment).
 - Question-and-Answer response format.
 - FHIR profiles and minimal extensions.
+- Regulated medicinal products (prescription, Over the counter, Investigational and authorized, human and veterinary) and medical devices.
 
 Out of scope:
-- Non-RFI communications.
-- Detailed security (use FHIR standards).
+- Non-RFI correspondence (e.g., approval letter).
 
-### Audience
-- Health authorities.
-- MAHs.
-- Health IT developers.
-- Standards organizations (e.g., HL7, ICH).
+### Solution Description 
 
-## Navigation
-- [Use Case](use-case.html)
-- [Resource Mapping](resource-mapping.html)
-- [Profiles](profiles.html)
-- [Value Sets](value-sets.html)
-- [Examples](examples.html)
-- [Implementation](implementation.html)
+
+### Use Case Examples
+
+
+### Skillsets
+
+
+### Target Audience
+- Health authorities
+- Market Authorization Holders (MAH) / Drug Manufacturer
+- Health/pharma IT developers
+- Contract Manufacturing Organization (CMO) 
+- Clinical Research Organization (CRO)
+- Healthcare institutions 
