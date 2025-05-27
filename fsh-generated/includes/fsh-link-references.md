@@ -5,7 +5,6 @@
 [RFICategoryAndSubcategory]: ValueSet-rfi-category-subcategory.html
 [RFICommunication]: StructureDefinition-RFICommunication.html
 [RFIDueDate]: StructureDefinition-rfi-due-date.html
-[RFIMedia]: StructureDefinition-RFIMedia.html
 [RFIPriority]: StructureDefinition-rfi-priority.html
 [RFIPriority]: ValueSet-rfi-priority.html
 [RFIQuestionID]: StructureDefinition-rfi-question-id.html
