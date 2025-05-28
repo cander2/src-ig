@@ -31,8 +31,6 @@ pages:
     title: Value Sets
   examples.md:
     title: Examples
-  artifacts.md:
-    title: Artifacts
 menu:
   Home: index.html
   Use Case: use-case.html
