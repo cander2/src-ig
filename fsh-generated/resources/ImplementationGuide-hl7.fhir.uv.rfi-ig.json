@@ -124,12 +124,6 @@
           "sourceUrl": "use-case.html"
         },
         {
-          "title": "Resource Mapping",
-          "generation": "markdown",
-          "name": "resource-mapping.html",
-          "sourceUrl": "resource-mapping.html"
-        },
-        {
           "title": "Profiles",
           "generation": "markdown",
           "name": "profiles.html",
