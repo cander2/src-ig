@@ -36,25 +36,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/MyPatient"
-        },
-        "name": "MyPatient",
-        "description": "An example profile of the Patient resource.",
-        "isExample": false
-      },
-      {
-        "reference": {
-          "reference": "Patient/PatientExample"
-        },
-        "name": "PatientExample",
-        "description": "An example of a patient with a license to krill.",
-        "isExample": true,
-        "profile": [
-          "http://hl7.org/fhir/rfi-ig/StructureDefinition/MyPatient"
-        ]
-      },
-      {
-        "reference": {
           "reference": "Bundle/response-bundle-003"
         },
         "name": "response-bundle-003",
