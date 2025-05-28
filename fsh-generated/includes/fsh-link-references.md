@@ -1,5 +1,3 @@
-[MyPatient]: StructureDefinition-MyPatient.html
-[PatientExample]: Patient-PatientExample.html
 [response-bundle-003]: Bundle-response-bundle-003.html
 [rfi-bundle-003]: Bundle-rfi-bundle-003.html
 [RFICategoryAndSubcategory]: ValueSet-rfi-category-subcategory.html

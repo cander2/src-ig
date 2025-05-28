@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "hl7.fhir.uv.rfi-ig",
-  "url": "http://hl7.org/fhir/rfi-ig/ImplementationGuide/hl7.fhir.uv.rfi-ig",
+  "url": "http://hl7.org/fhir/uv/rfi-ig/ImplementationGuide/hl7.fhir.uv.rfi-ig",
   "version": "0.1.0",
   "name": "RFI",
   "title": "Request for Information (RFI)",
@@ -18,19 +18,11 @@
       ]
     }
   ],
-  "description": "Standard for RFIs from health authorities to Market Authorization Holders.",
+  "description": "Standard for structuring RFIs from health authorities to Market Authorization Holders.",
   "packageId": "hl7.fhir.uv.rfi-ig",
   "license": "CC0-1.0",
   "fhirVersion": [
     "5.0.0"
-  ],
-  "dependsOn": [
-    {
-      "packageId": "hl7.fhir.r5.core",
-      "version": "5.0.0",
-      "uri": "http://hl7.org/fhir/ImplementationGuide/fhir",
-      "id": "hl7_fhir_r5_core"
-    }
   ],
   "definition": {
     "resource": [
@@ -124,28 +116,22 @@
           "sourceUrl": "use-case.html"
         },
         {
-          "title": "Profiles",
+          "title": "RFI Structure",
           "generation": "markdown",
-          "name": "profiles.html",
-          "sourceUrl": "profiles.html"
+          "name": "rfi-structure.html",
+          "sourceUrl": "rfi-structure.html"
         },
         {
           "title": "Value Sets",
           "generation": "markdown",
-          "name": "value-sets.html",
-          "sourceUrl": "value-sets.html"
+          "name": "terminology.html",
+          "sourceUrl": "terminology.html"
         },
         {
           "title": "Examples",
           "generation": "markdown",
           "name": "examples.html",
           "sourceUrl": "examples.html"
-        },
-        {
-          "title": "Implementation",
-          "generation": "markdown",
-          "name": "implementation.html",
-          "sourceUrl": "implementation.html"
         }
       ],
       "name": "toc.html",
@@ -168,21 +154,35 @@
       },
       {
         "code": {
-          "code": "apply-version",
+          "code": "show-inherited-invariants",
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
         },
         "value": "false"
       },
       {
         "code": {
-          "code": "apply-contact",
+          "code": "autoload-resources",
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
         },
         "value": "true"
       },
       {
         "code": {
-          "code": "show-inherited-invariants",
+          "code": "produce-jekyll-data",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "code": "generate-artifacts-page",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "code": "generate-downloads-page",
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
         },
         "value": "true"
@@ -192,7 +192,7 @@
           "code": "path-history",
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
         },
-        "value": "http://hl7.org/fhir/rfi-ig/history.html"
+        "value": "http://hl7.org/fhir/uv/rfi-ig/history.html"
       }
     ]
   }
