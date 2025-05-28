@@ -1,6 +1,3 @@
-| Official URL: http://hl7.org/fhir/uv/rfi-ig/ImplementationGuide/hl7.fhir.uv.rfi-ig | Version: 0.1.0 |
-| Draft as of 2025-05-27 | Computable Name: RFI |
-
 ## Introduction
 This Implementation Guide (IG) introduces a standard for structuring Requests for Information (RFIs) issued by health authorities to market authorization holders during assessment of regulatory applications related to medicinal products (prescription, over-the-counter, investigational, and authorized, for human and veterinary use) and medical devices.
 
