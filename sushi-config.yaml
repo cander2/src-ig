@@ -27,21 +27,15 @@ pages:
     title: Use Case
   rfi-structure.md:
     title: RFI Structure
-  # profiles.md:
-    # title: Profiles
   terminology.md:
     title: Value Sets
   examples.md:
     title: Examples
-  # implementation.md:
-    # title: Implementation
 menu:
   Home: index.html
   Use Case: use-case.html
   RFI Structure: rfi-structure.html
-  # Profiles: profiles.html
   Terminology: terminology.html
   Examples: examples.html
-  # Implementation: implementation.html
   Artifacts: artifacts.html
   Downloads: downloads.html
