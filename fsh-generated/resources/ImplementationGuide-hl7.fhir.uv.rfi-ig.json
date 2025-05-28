@@ -72,13 +72,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/RFIMedia"
-        },
-        "name": "RFIMedia",
-        "isExample": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/rfi-priority"
         },
         "name": "RFIPriority",
