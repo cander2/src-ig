@@ -1,4 +1,4 @@
-## Introduction
+### Introduction
 This Implementation Guide (IG) introduces a standard for structuring Requests for Information (RFIs) issued by health authorities to market authorization holders during assessment of regulatory applications related to medicinal products (prescription, over-the-counter, investigational, and authorized, for human and veterinary use) and medical devices.
 
 ### Background
@@ -37,7 +37,7 @@ This IG is designed for:
 - **Clinical Research Organizations (CROs)**: Supporting clinical related RFI responses for themselves or clients.
 - **Healthcare Institutions**: Responding to RFIs related to clinical trial applications/Investigational New Drug Applications (IND).
 
-## Solution Description
+### Solution Description
 The RFI IG leverages FHIR R5 to create a standardized, interoperable framework for RFI workflows, addressing the inefficiencies of traditional document-based processes. The solution is built on a core set of FHIR resources, profiles, and extensions, designed to support structured data exchange while maintaining flexibility for diverse regulatory use cases.
 
 INSERT GRAPHIC OF RFI 
