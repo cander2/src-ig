@@ -1,8 +1,8 @@
 id: hl7.fhir.uv.rfi-ig
 canonical: http://hl7.org/fhir/uv/rfi-ig
 name: RFI
-title: Request for Information (RFI)
-description: Standard for structuring RFIs from health authorities to Market Authorization Holders.
+title: Regulatory Correspondence
+description: Standard for structuring List of Quesrions (LOQ), List of Issues (LOI), and decision letters from a health authority to a Market Authorization Holders. 
 status: draft
 version: 0.1.0
 fhirVersion: 5.0.0
@@ -25,8 +25,12 @@ pages:
     title: Home
   use-case.md:
     title: Use Case
+  loq-loi.md:
+    title: List of Quesrions / Issues
+  decisionletter.md:
+    title: Decision Letter
   rfi-structure.md:
-    title: RFI Structure
+    title: Request for Information
   terminology.md:
     title: Value Sets
   examples.md:
@@ -34,7 +38,10 @@ pages:
 menu:
   Home: index.html
   Use Case: use-case.html
-  RFI Structure: rfi-structure.html
+  Correspondence Structure: 
+    List of Questions / Issues: loq-loi.html
+    Decision Letter: decisionletter.html
+    Request for Information: rfi-structure.html
   Terminology: terminology.html
   Examples: examples.html
   Artifacts: artifacts.html
