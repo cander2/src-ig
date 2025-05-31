@@ -2,7 +2,7 @@ id: hl7.fhir.uv.rfi-ig
 canonical: http://hl7.org/fhir/uv/rfi-ig
 name: RFI
 title: Regulatory Correspondence
-description: Standard for structuring List of Quesrions (LOQ), List of Issues (LOI), and decision letters from a health authority to a Market Authorization Holders. 
+description: Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), List of Issues (LOI), Request for Information, and decision letters
 status: draft
 version: 0.1.0
 fhirVersion: 5.0.0
