@@ -2,14 +2,14 @@ id: hl7.fhir.uv.rfi-ig
 canonical: http://hl7.org/fhir/uv/rfi-ig
 name: RFI
 title: Regulatory Correspondence
-description: Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), List of Issues (LOI), Request for Information, and decision letters
+description: Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), List of Issues (LOI), Request for Information, and decision letters.
 status: draft
 version: 0.1.0
 fhirVersion: 5.0.0
 copyrightYear: 2025+
 releaseLabel: ci-build
 publisher:
-  name: Gravitate Health Project
+  name: Gravitate Health and HL7 Vulcan
   url: https://www.gravitatehealth.eu/
 license: CC0-1.0
 # dependencies:
@@ -26,7 +26,7 @@ pages:
   use-case.md:
     title: Use Case
   loq-loi.md:
-    title: List of Quesrions / Issues
+    title: List of Questions and Issues
   decisionletter.md:
     title: Decision Letter
   rfi-structure.md:
@@ -38,8 +38,8 @@ pages:
 menu:
   Home: index.html
   Use Case: use-case.html
-  Correspondence Structure: 
-    List of Questions / Issues: loq-loi.html
+  Correspondence Types: 
+    List of Questions and Issues: loq-loi.html
     Decision Letter: decisionletter.html
     Request for Information: rfi-structure.html
   Terminology: terminology.html

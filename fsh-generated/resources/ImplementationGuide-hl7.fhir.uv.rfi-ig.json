@@ -4,12 +4,12 @@
   "url": "http://hl7.org/fhir/uv/rfi-ig/ImplementationGuide/hl7.fhir.uv.rfi-ig",
   "version": "0.1.0",
   "name": "RFI",
-  "title": "Request for Information (RFI)",
+  "title": "Regulatory Correspondence",
   "status": "draft",
-  "publisher": "Gravitate Health Project",
+  "publisher": "Gravitate Health and HL7 Vulcan",
   "contact": [
     {
-      "name": "Gravitate Health Project",
+      "name": "Gravitate Health and HL7 Vulcan",
       "telecom": [
         {
           "system": "url",
@@ -18,7 +18,7 @@
       ]
     }
   ],
-  "description": "Standard for structuring RFIs from health authorities to Market Authorization Holders.",
+  "description": "Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), List of Issues (LOI), Request for Information, and decision letters.",
   "packageId": "hl7.fhir.uv.rfi-ig",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -116,7 +116,19 @@
           "sourceUrl": "use-case.html"
         },
         {
-          "title": "RFI Structure",
+          "title": "List of Questions and Issues",
+          "generation": "markdown",
+          "name": "loq-loi.html",
+          "sourceUrl": "loq-loi.html"
+        },
+        {
+          "title": "Decision Letter",
+          "generation": "markdown",
+          "name": "decisionletter.html",
+          "sourceUrl": "decisionletter.html"
+        },
+        {
+          "title": "Request for Information",
           "generation": "markdown",
           "name": "rfi-structure.html",
           "sourceUrl": "rfi-structure.html"
