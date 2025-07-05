@@ -1,6 +1,6 @@
-id: hl7.fhir.uv.rfi-ig
-canonical: http://hl7.org/fhir/uv/rfi-ig
-name: SRC
+id: hl7.fhir.uv.rcs-ig
+canonical: http://hl7.org/fhir/uv/rcs-ig
+name: RCS
 title: Structured Regulatory Correspondence (SRC)
 description: Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), Response to List of Questions, List of Issues (LOI), Response to List of Issues, Request for Information, Response to Request for Information, and Decision Letters.
 status: draft
