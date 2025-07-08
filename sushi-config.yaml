@@ -22,10 +22,10 @@ pages:
     title: Use Case
   loq-loi.md:
     title: List of Questions and Issues
+  response.md:
+    title: Response to Questions
   decisionletter.md:
     title: Decision Letter
-  rfi-structure.md:
-    title: Request for Information
   terminology.md:
     title: Value Sets
   examples.md:
@@ -34,9 +34,9 @@ menu:
   Home: index.html
   Use Case: use-case.html
   Correspondence Types: 
-    List of Questions and Issues: loq-loi.html
+    List of Questions: loq-loi.html
+    Response to questions: response.html
     Decision Letter: decisionletter.html
-    Request for Information: rfi-structure.html
   Terminology: terminology.html
   Examples: examples.html
   Artifacts: artifacts.html
