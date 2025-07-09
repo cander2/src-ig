@@ -12,8 +12,6 @@ publisher:
   name: Gravitate Health and HL7 Biomedical Research & Regulation (BR&R)
   url: https://www.gravitatehealth.eu/
 license: CC0-1.0
-# dependencies:
-#  hl7.fhir.r5.core: 5.0.0
 
 pages:
   index.md:
