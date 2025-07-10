@@ -22,13 +22,13 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="loq-loi.html">List of Questions and Issues</a>
+        <a href="loq-loi.html">List of Questions</a>
+      </li>
+      <li>
+        <a href="response.html">Response to questions</a>
       </li>
       <li>
         <a href="decisionletter.html">Decision Letter</a>
-      </li>
-      <li>
-        <a href="rfi-structure.html">Request for Information</a>
       </li>
     </ul>
   </li>

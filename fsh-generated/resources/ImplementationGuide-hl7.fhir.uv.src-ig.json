@@ -1,15 +1,15 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "hl7.fhir.uv.rfi-ig",
-  "url": "http://hl7.org/fhir/uv/rfi-ig/ImplementationGuide/hl7.fhir.uv.rfi-ig",
+  "id": "hl7.fhir.uv.src-ig",
+  "url": "http://hl7.org/fhir/uv/src-ig/ImplementationGuide/hl7.fhir.uv.src-ig",
   "version": "0.1.0",
-  "name": "RFI",
-  "title": "Regulatory Correspondence",
+  "name": "RCS",
+  "title": "Structured Regulatory Correspondence (SRC)",
   "status": "draft",
-  "publisher": "Gravitate Health and HL7 Vulcan",
+  "publisher": "Gravitate Health and HL7 Biomedical Research & Regulation (BR&R)",
   "contact": [
     {
-      "name": "Gravitate Health and HL7 Vulcan",
+      "name": "Gravitate Health and HL7 Biomedical Research & Regulation (BR&R)",
       "telecom": [
         {
           "system": "url",
@@ -18,8 +18,8 @@
       ]
     }
   ],
-  "description": "Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), List of Issues (LOI), Request for Information, and decision letters.",
-  "packageId": "hl7.fhir.uv.rfi-ig",
+  "description": "Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), Response to List of Questions, List of Issues (LOI), Response to List of Issues, Request for Information, Response to Request for Information, and Decision Letters.",
+  "packageId": "hl7.fhir.uv.src-ig",
   "license": "CC0-1.0",
   "fhirVersion": [
     "5.0.0"
@@ -122,16 +122,16 @@
           "sourceUrl": "loq-loi.html"
         },
         {
+          "title": "Response to Questions",
+          "generation": "markdown",
+          "name": "response.html",
+          "sourceUrl": "response.html"
+        },
+        {
           "title": "Decision Letter",
           "generation": "markdown",
           "name": "decisionletter.html",
           "sourceUrl": "decisionletter.html"
-        },
-        {
-          "title": "Request for Information",
-          "generation": "markdown",
-          "name": "rfi-structure.html",
-          "sourceUrl": "rfi-structure.html"
         },
         {
           "title": "Value Sets",
@@ -166,45 +166,10 @@
       },
       {
         "code": {
-          "code": "show-inherited-invariants",
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
-        },
-        "value": "false"
-      },
-      {
-        "code": {
-          "code": "autoload-resources",
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "code": "produce-jekyll-data",
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "code": "generate-artifacts-page",
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
-          "code": "generate-downloads-page",
-          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
-        },
-        "value": "true"
-      },
-      {
-        "code": {
           "code": "path-history",
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
         },
-        "value": "http://hl7.org/fhir/uv/rfi-ig/history.html"
+        "value": "http://hl7.org/fhir/uv/src-ig/history.html"
       }
     ]
   }
