@@ -1,5 +1,5 @@
 ### Introduction
-This Implementation Guide (IG) introduces a standard for structuring key regulatory correspondence between health authorities and mMarket Authroization Holders. This includes: list of questions (also known as Requests for Information or RFI), response to list of qestions, and regulatory decision letters. 
+This Implementation Guide (IG) introduces a standard for structuring key regulatory correspondence between health authorities and Market Authroization Holders. This includes: list of questions (also known as Requests for Information or RFI), response to list of qestions, and regulatory decision letters. 
 
 ### Background
 List of questions are a critical aspect of the regulatory assesment process for medicinal products and medical devices. Health authorities, such as the FDA, EMA, and PMDA, issue Lists of Questions to market authorization holders to seek clarification, request additional data, or raies issues. 
