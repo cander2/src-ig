@@ -18,7 +18,7 @@
       ]
     }
   ],
-  "description": "Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), Response to List of Questions, List of Issues (LOI), Response to List of Issues, Request for Information, Response to Request for Information, and Decision Letters.",
+  "description": "Standard for structuring regulatory correspondence from a health authority to a Market Authorization Holder. This includes List of Questions (LOQ), Response to List of Questions, List of Issues (LOI), Response to List of Issues, Information Request, Response to Information Request, and Decision Letters.",
   "packageId": "hl7.fhir.uv.src-ig",
   "license": "CC0-1.0",
   "fhirVersion": [
