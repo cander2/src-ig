@@ -42,6 +42,12 @@ menu:
 resources:
   CodeSystem/ctd-categories-full:
     name: CTD Question Categories Full
+  StructureDefinition/RegulatoryQuestionnaire:
+    name: Regulatory Questionnaire
+  StructureDefinition/contact-signature:
+    name: Contact Signature Extension
+  StructureDefinition/questionnaire-itemRichText:
+    name: Rich Text Question Extension
 
 examples:
   - id: brr-regulatory-qa-questionnaire

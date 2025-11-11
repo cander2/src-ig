@@ -1,4 +1,6 @@
+[ContactSignature]: StructureDefinition-contact-signature.html
 [CTDQuestionCategoriesFull]: CodeSystem-ctd-categories-full.html
+[RegulatoryQuestionnaire]: StructureDefinition-RegulatoryQuestionnaire.html
 [brr-regulatory-qa-questionnaire]: Questionnaire-brr-regulatory-qa-questionnaire.html
 [RFICategoryAndSubcategory]: ValueSet-rfi-category-subcategory.html
 [RFICommunication]: StructureDefinition-RFICommunication.html
@@ -8,3 +10,4 @@
 [RFIQuestionID]: StructureDefinition-rfi-question-id.html
 [RFIQuestionnaire]: StructureDefinition-RFIQuestionnaire.html
 [RFIQuestionnaireResponse]: StructureDefinition-RFIQuestionnaireResponse.html
+[QuestionnaireItemRichText]: StructureDefinition-questionnaire-itemRichText.html

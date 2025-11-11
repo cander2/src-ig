@@ -28,10 +28,25 @@
     "resource": [
       {
         "reference": {
+          "reference": "StructureDefinition/contact-signature"
+        },
+        "name": "Contact Signature Extension",
+        "isExample": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/ctd-categories-full"
         },
         "description": "Hierarchical terminology derived from ICH CTD Modules 2-5 for classifying regulator-to-sponsor questions in Structured Regulatory Correspondence (SRC). Supports multi-level granularity for EMA, FDA, and Health Canada harmonization.",
         "name": "CTD Question Categories Full",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RegulatoryQuestionnaire"
+        },
+        "description": "A Questionnaire used by a health authority to issue a List of Questions (LOQ), List of Issues (LOI), or Request for Information (RFI) to a Market Authorization Holder. Supports rich-text questions, hierarchical CTD coding, and full contact signature.",
+        "name": "Regulatory Questionnaire",
         "isExample": false
       },
       {
@@ -97,6 +112,13 @@
           "reference": "StructureDefinition/RFIQuestionnaireResponse"
         },
         "name": "RFIQuestionnaireResponse",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/questionnaire-itemRichText"
+        },
+        "name": "Rich Text Question Extension",
         "isExample": false
       }
     ],
