@@ -38,3 +38,7 @@ menu:
   Terminology: terminology.html
   Examples: examples.html
   Artifacts: artifacts.html
+
+resources:
+  CodeSystem/ctd-categories-full:
+    name: CTD Question Categories Full
