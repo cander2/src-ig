@@ -30,8 +30,7 @@
         "reference": {
           "reference": "StructureDefinition/contact-signature"
         },
-        "name": "Contact Signature Extension",
-        "isExample": false
+        "name": "Contact Signature Extension"
       },
       {
         "reference": {
@@ -58,68 +57,9 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/rfi-category-subcategory"
-        },
-        "description": "Categories and sub-categories for RFI questions, aligned to ICH CTD headings.",
-        "name": "RFICategoryAndSubcategory",
-        "isExample": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RFICommunication"
-        },
-        "name": "RFICommunication",
-        "isExample": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/rfi-due-date"
-        },
-        "name": "RFIDueDate",
-        "isExample": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/rfi-priority"
-        },
-        "name": "RFIPriority",
-        "isExample": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/rfi-priority"
-        },
-        "description": "Priority levels for RFIs.",
-        "name": "RFIPriority",
-        "isExample": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/rfi-question-id"
-        },
-        "name": "RFIQuestionID",
-        "isExample": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RFIQuestionnaire"
-        },
-        "name": "RFIQuestionnaire",
-        "isExample": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RFIQuestionnaireResponse"
-        },
-        "name": "RFIQuestionnaireResponse",
-        "isExample": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/questionnaire-itemRichText"
         },
-        "name": "Rich Text Question Extension",
-        "isExample": false
+        "name": "Rich Text Question Extension"
       }
     ],
     "page": {

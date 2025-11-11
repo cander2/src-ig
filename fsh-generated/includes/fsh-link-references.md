@@ -1,13 +1,5 @@
-[ContactSignature]: StructureDefinition-contact-signature.html
+[Contact Signature Extension]: StructureDefinition-contact-signature.html
 [CTDQuestionCategoriesFull]: CodeSystem-ctd-categories-full.html
 [RegulatoryQuestionnaire]: StructureDefinition-RegulatoryQuestionnaire.html
 [brr-regulatory-qa-questionnaire]: Questionnaire-brr-regulatory-qa-questionnaire.html
-[RFICategoryAndSubcategory]: ValueSet-rfi-category-subcategory.html
-[RFICommunication]: StructureDefinition-RFICommunication.html
-[RFIDueDate]: StructureDefinition-rfi-due-date.html
-[RFIPriority]: StructureDefinition-rfi-priority.html
-[RFIPriority]: ValueSet-rfi-priority.html
-[RFIQuestionID]: StructureDefinition-rfi-question-id.html
-[RFIQuestionnaire]: StructureDefinition-RFIQuestionnaire.html
-[RFIQuestionnaireResponse]: StructureDefinition-RFIQuestionnaireResponse.html
-[QuestionnaireItemRichText]: StructureDefinition-questionnaire-itemRichText.html
+[Rich Text Question Extension]: StructureDefinition-questionnaire-itemRichText.html
