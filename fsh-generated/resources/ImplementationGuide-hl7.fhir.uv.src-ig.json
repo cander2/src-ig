@@ -28,12 +28,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/contact-signature"
-        },
-        "name": "Contact Signature Extension"
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/ctd-categories-full"
         },
         "description": "Hierarchical terminology derived from ICH CTD Modules 2-5 for classifying regulator-to-sponsor questions in Structured Regulatory Correspondence (SRC). Supports multi-level granularity for EMA, FDA, and Health Canada harmonization.",
@@ -54,12 +48,6 @@
         },
         "name": "Responses to Question Set ID001",
         "isExample": true
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/questionnaire-itemRichText"
-        },
-        "name": "Rich Text Question Extension"
       }
     ],
     "page": {
