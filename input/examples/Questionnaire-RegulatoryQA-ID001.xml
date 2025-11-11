@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Questionnaire xmlns="http://hl7.org/fhir">
+    <resourceType value="Questionnaire"/>
+    <id value="brr-regulatory-qa-questionnaire"/>
+    <meta>
+        <versionId value="2025-11-11T22:38:00Z"/>
+        <lastUpdated value="2025-11-11T22:38:00Z"/>
+        <profile value="http://hl7.org/fhir/uv/brr/StructureDefinition/RegulatoryQuestionnaire"/>
+    </meta>
+    <identifier>
+        <system value="http://hl7.org/fhir/uv/brr/identifier/qa-request"/>
+        <value value="ID001"/>
+    </identifier>
+    <identifier>
+        <system value="https://ema.europa.eu/procedure-number"/>
+        <value value="EMEA/H/C/005432/II/0023"/>
+    </identifier>
+    <version value="1.1.5"/>
+    <name value="BRRRegulatoryQAQuestionnaire"/>
+    <title value="Responses to Question Set ID001"/>
+    <status value="active"/>
+    <subjectType value="MedicinalProductDefinition"/>
+    <date value="2025-11-11"/>
+    <contact>
+        <name>
+            <text value="John Smith, MD"/>
+            <family value="Smith"/>
+            <given value="John"/>
+            <suffix value="MD"/>
+        </name>
+        <telecom>
+            <system value="email"/>
+            <value value="john.smith@fda.hhs.gov"/>
+        </telecom>
+        <address>
+            <line value="10903 New Hampshire Ave"/>
+            <city value="Silver Spring"/>
+            <state value="MD"/>
+            <postalCode value="20993"/>
+            <country value="US"/>
+        </address>
+        <!-- Rich Text Contact Signature -->
+        <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/contact-signature">
+            <valueXhtml>
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p style="margin:0; font-weight:bold;">John Smith, MD</p>
+                    <p style="margin:0; font-style:italic;">Regulatory Reviewer</p>
+                    <p style="margin:0;">
+                        <b>Division of Drug Evaluation III</b><br/>
+                        Office of Clinical Pharmacology<br/>
+                        Office of New Drugs<br/>
+                        Center for Drug Evaluation and Research
+                    </p>
+                    <p style="margin:0; color:#0066cc;">
+                        <a href="mailto:john.smith@fda.hhs.gov">john.smith@fda.hhs.gov</a> | 
+                        <a href="tel:+1-301-796-1234">+1-301-796-1234</a>
+                    </p>
+                    <p style="margin:0; font-size:0.9em; color:#666;">
+                        U.S. Food and Drug Administration
+                    </p>
+                </div>
+            </valueXhtml>
+        </extension>
+    </contact>
+    <effectivePeriod>
+        <start value="2025-11-11"/>
+        <end value="2025-12-11"/>
+    </effectivePeriod>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>EMA List of Questions – Type II Variation (ID001)</p>
+        </div>
+    </text>
+    <item>
+        <linkId value="admin-1"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="administrative.application-form.fee"/>
+            <display value="Fee Payment Documentation"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="administrative.application-form"/>
+            <display value="Application Form"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="administrative"/>
+            <display value="Administrative Information"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Is the <b>fee for the Type II variation</b> fully paid and documented?</p>
+                        <p style="font-size:0.9em; color:#555;">
+                            See <a href="https://www.ema.europa.eu/en/documents/regulatory-procedural-guidance/fees-payable-european-medicines-agency_en.pdf">EMA Fee Guidance</a> for payment confirmation requirements.
+                        </p>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="admin-2"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="administrative.application-form.metadata"/>
+            <display value="Metadata Completeness"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="administrative.application-form"/>
+            <display value="Application Form"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="administrative"/>
+            <display value="Administrative Information"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Are <b>all required metadata fields</b> in the application form complete?</p>
+                        <ul>
+                            <li>Marketing Authorisation Holder</li>
+                            <li>Product Name (INN)</li>
+                            <li>Procedure Number</li>
+                            <li>Submission Date</li>
+                        </ul>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="labeling-1"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional.labeling.storage-conditions"/>
+            <display value="Storage Conditions"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional.labeling"/>
+            <display value="Labeling and Package Leaflet"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional"/>
+            <display value="Regional Information"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Do the updated storage conditions (<b>2–8°C for 36 months</b>) require <i>additional patient guidance</i>?</p>
+                        <p style="margin-top:8px;">
+                            Current ePI states: “Store in a refrigerator (2°C – 8°C). Do not freeze.”
+                        </p>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="labeling-2"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional.labeling.shelf-life"/>
+            <display value="Shelf Life"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional.labeling"/>
+            <display value="Labeling and Package Leaflet"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional"/>
+            <display value="Regional Information"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Is the patient leaflet revised to clarify the <b>extended shelf life</b>?</p>
+                        <p style="font-style:italic;">
+                            “Shelf life after first opening: 36 months when stored at 2–8°C”
+                        </p>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="labeling-3"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional.labeling.multilingual"/>
+            <display value="Multilingual Clarity"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional.labeling"/>
+            <display value="Labeling and Package Leaflet"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="regional"/>
+            <display value="Regional Information"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Is the updated ePI text <b>sufficiently clear for all EU languages</b>?</p>
+                        <table border="1" style="border-collapse:collapse; font-size:0.9em;">
+                            <tr><th>Language</th><th>Status</th></tr>
+                            <tr><td>English</td><td>Approved</td></tr>
+                            <tr><td>French</td><td>Under Review</td></tr>
+                            <tr><td>German</td><td>Pending</td></tr>
+                        </table>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="cmc-1-DP-Stability"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.stability.study-design"/>
+            <display value="Stability Study Design"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.stability"/>
+            <display value="Stability"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product"/>
+            <display value="Drug Product"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Are there any <b>new stability studies</b> conducted, or does the submission include only data from <i>additional timepoints</i> from previously submitted studies?</p>
+                        <ul>
+                            <li>Include protocol deviations if any.</li>
+                            <li>Reference: <a href="https://www.ich.org/page/ich-guidelines">ICH Q1A(R2)</a></li>
+                        </ul>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="cmc-2-DP-Stability"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.stability.climatic-zones"/>
+            <display value="Climatic Zone Support"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.stability"/>
+            <display value="Stability"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product"/>
+            <display value="Drug Product"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Does the data support <b>all intended climatic zones</b>?</p>
+                        <p style="background:#f9f9f9; padding:8px; border-left:4px solid #0066cc;">
+                            <b>Note:</b> Confirm coverage for Zone IVb (30°C/75% RH) per <a href="https://www.who.int/publications/i/item/9789240011922">WHO TRS 1010</a>
+                        </p>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="cmc-3-DP-Analytical Methods"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.control.analytical-procedures"/>
+            <display value="Analytical Procedures"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.control"/>
+            <display value="Control of Drug Product"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product"/>
+            <display value="Drug Product"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Are the test methods used <b>the same</b> as in the previously submitted stability information?</p>
+                        <p style="color:#d32f2f;">
+                            If changed: justify and provide validation data.
+                        </p>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="cmc-4-DP-Impurities"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.control.impurities"/>
+            <display value="Impurities"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.control"/>
+            <display value="Control of Drug Product"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product"/>
+            <display value="Drug Product"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Are there any <b>new degradation products</b> identified within the newly submitted data?</p>
+                        <p style="font-size:0.9em;">
+                            Threshold: <b>&gt;0.10%</b> per <a href="https://www.ich.org/page/quality-guidelines">ICH Q3B(R2)</a>
+                        </p>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+    <item>
+        <linkId value="cmc-5-DP-Container Closure System"/>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product.container-closure"/>
+            <display value="Container Closure System"/>
+        </code>
+        <code>
+            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+            <code value="quality.drug-product"/>
+            <display value="Drug Product"/>
+        </code>
+        <type value="string"/>
+        <text>
+            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
+                <valueXhtml>
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Any changes in the <b>packaging configuration</b> and/or <b>storage of the samples</b> during stability?</p>
+                        <table border="1" style="width:100%; border-collapse:collapse; margin-top:8px;">
+                            <tr><th>Original</th><th>New</th></tr>
+                            <tr><td>PVC/PVDC Blister</td><td>Alu/Alu Blister</td></tr>
+                            <tr><td>25°C/60% RH</td><td>Unchanged</td></tr>
+                        </table>
+                    </div>
+                </valueXhtml>
+            </extension>
+        </text>
+    </item>
+</Questionnaire>

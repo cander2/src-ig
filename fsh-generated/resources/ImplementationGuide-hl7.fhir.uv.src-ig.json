@@ -36,16 +36,9 @@
       },
       {
         "reference": {
-          "reference": "Bundle/response-bundle-003"
+          "reference": "Questionnaire/brr-regulatory-qa-questionnaire"
         },
-        "name": "response-bundle-003",
-        "isExample": true
-      },
-      {
-        "reference": {
-          "reference": "Bundle/rfi-bundle-003"
-        },
-        "name": "rfi-bundle-003",
+        "name": "Responses to Question Set ID001",
         "isExample": true
       },
       {

@@ -1,6 +1,5 @@
 [CTDQuestionCategoriesFull]: CodeSystem-ctd-categories-full.html
-[response-bundle-003]: Bundle-response-bundle-003.html
-[rfi-bundle-003]: Bundle-rfi-bundle-003.html
+[brr-regulatory-qa-questionnaire]: Questionnaire-brr-regulatory-qa-questionnaire.html
 [RFICategoryAndSubcategory]: ValueSet-rfi-category-subcategory.html
 [RFICommunication]: StructureDefinition-RFICommunication.html
 [RFIDueDate]: StructureDefinition-rfi-due-date.html

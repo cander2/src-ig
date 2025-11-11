@@ -42,3 +42,8 @@ menu:
 resources:
   CodeSystem/ctd-categories-full:
     name: CTD Question Categories Full
+
+examples:
+  - id: brr-regulatory-qa-questionnaire
+    source: input/examples/Questionnaire-RegulatoryQA-ID001.xml
+    name: EMA List of Questions – Type II Variation (ID001)
