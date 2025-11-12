@@ -358,32 +358,48 @@
             </extension>
         </text>
     </item>
-    <item>
-        <linkId value="cmc-5-DP-Container Closure System"/>
-        <code>
-            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
-            <code value="quality.drug-product.container-closure"/>
-            <display value="Container Closure System"/>
-        </code>
-        <code>
-            <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
-            <code value="quality.drug-product"/>
-            <display value="Drug Product"/>
-        </code>
-        <type value="string"/>
-        <text>
-            <extension url="http://hl7.org/fhir/uv/brr/StructureDefinition/questionnaire-itemRichText">
-                <valueXhtml>
-                    <div xmlns="http://www.w3.org/1999/xhtml">
-                        <p>Any changes in the <b>packaging configuration</b> and/or <b>storage of the samples</b> during stability?</p>
-                        <table border="1" style="width:100%; border-collapse:collapse; margin-top:8px;">
-                            <tr><th>Original</th><th>New</th></tr>
-                            <tr><td>PVC/PVDC Blister</td><td>Alu/Alu Blister</td></tr>
-                            <tr><td>25°C/60% RH</td><td>Unchanged</td></tr>
-                        </table>
-                    </div>
-                </valueXhtml>
-            </extension>
-        </text>
-    </item>
+<item>
+    <linkId value="cmc-5-DP-Container Closure System"/>
+    <code>
+        <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+        <code value="quality.drug-product.container-closure"/>
+        <display value="Container Closure System"/>
+    </code>
+    <code>
+        <system value="http://hl7.org/fhir/uv/src-ig/CodeSystem/ctd-categories-full"/>
+        <code value="quality.drug-product"/>
+        <display value="Drug Product"/>
+    </code>
+    <type value="string"/>
+    <text>
+        <extension url="http://hl7.org/fhir/uv/src-ig/StructureDefinition/questionnaire-itemRichText">
+            <valueXhtml>
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Any changes in the <b>packaging configuration</b> and/or <b>storage of the samples</b> during stability?</p>
+
+                    <p style="margin-top:12px; font-weight:bold;">Proposed Blister Pack Design:</p>
+
+                    <!-- EMBEDDED BASE64 IMAGE – REPLACE PLACEHOLDER BELOW -->
+                    <img 
+                        src="data:image/png;base64,{{BASE64_ENCODED_IMAGE_DATA_HERE}}" 
+                        alt="Proposed aluminum/aluminum blister pack (cross-section)" 
+                        width="600" 
+                        style="border:1px solid #ccc; margin:10px 0; display:block;" 
+                    />
+
+                    <p style="font-size:0.9em; color:#555;">
+                        <b>Figure 1:</b> Cross-section of new Alu/Alu blister showing foil thickness and sealing layer.
+                    </p>
+
+                    <table border="1" style="width:100%; border-collapse:collapse; margin-top:8px; font-size:0.9em;">
+                        <tr><th>Component</th><th>Original</th><th>Proposed</th></tr>
+                        <tr><td>Outer Foil</td><td>PVC/PVDC</td><td>Aluminum</td></tr>
+                        <tr><td>Inner Foil</td><td>PVC</td><td>Aluminum</td></tr>
+                        <tr><td>Seal Strength</td><td>≥ 6 N/15 mm</td><td>≥ 8 N/15 mm</td></tr>
+                    </table>
+                </div>
+            </valueXhtml>
+        </extension>
+    </text>
+</item>
 </Questionnaire>
