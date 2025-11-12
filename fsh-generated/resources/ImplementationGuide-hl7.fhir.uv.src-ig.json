@@ -67,34 +67,22 @@
           "sourceUrl": "use-case.html"
         },
         {
-          "title": "List of Questions and Issues",
+          "title": "Questions Example",
           "generation": "markdown",
-          "name": "loq-loi.html",
-          "sourceUrl": "loq-loi.html"
+          "name": "question.html",
+          "sourceUrl": "question.html"
         },
         {
-          "title": "Response to Questions",
+          "title": "Response Example",
           "generation": "markdown",
           "name": "response.html",
           "sourceUrl": "response.html"
         },
         {
-          "title": "Decision Letter",
-          "generation": "markdown",
-          "name": "decisionletter.html",
-          "sourceUrl": "decisionletter.html"
-        },
-        {
-          "title": "Value Sets",
+          "title": "Terminology",
           "generation": "markdown",
           "name": "terminology.html",
           "sourceUrl": "terminology.html"
-        },
-        {
-          "title": "Examples",
-          "generation": "markdown",
-          "name": "examples.html",
-          "sourceUrl": "examples.html"
         }
       ],
       "name": "toc.html",

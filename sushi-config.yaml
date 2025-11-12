@@ -18,25 +18,18 @@ pages:
     title: Home
   use-case.md:
     title: Use Case
-  loq-loi.md:
-    title: List of Questions and Issues
+  question.md:
+    title: Questions Example
   response.md:
-    title: Response to Questions
-  decisionletter.md:
-    title: Decision Letter
+    title: Response Example
   terminology.md:
-    title: Value Sets
-  examples.md:
-    title: Examples
+    title: Terminology
 menu:
   Home: index.html
   Use Case: use-case.html
-  Correspondence Types: 
-    List of Questions: loq-loi.html
-    Response to questions: response.html
-    Decision Letter: decisionletter.html
+  Question Structure: question.html
+  Response Structure: response.html
   Terminology: terminology.html
-  Examples: examples.html
   Artifacts: artifacts.html
 
 resources:

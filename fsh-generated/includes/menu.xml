@@ -16,27 +16,14 @@
   <li>
     <a href="use-case.html">Use Case</a>
   </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Correspondence Types
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="loq-loi.html">List of Questions</a>
-      </li>
-      <li>
-        <a href="response.html">Response to questions</a>
-      </li>
-      <li>
-        <a href="decisionletter.html">Decision Letter</a>
-      </li>
-    </ul>
+  <li>
+    <a href="question.html">Question Structure</a>
+  </li>
+  <li>
+    <a href="response.html">Response Structure</a>
   </li>
   <li>
     <a href="terminology.html">Terminology</a>
-  </li>
-  <li>
-    <a href="examples.html">Examples</a>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
